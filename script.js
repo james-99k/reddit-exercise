@@ -3367,9 +3367,6 @@ object.data.children.forEach(e => {
 
     title.innerHTML = '<h1 class="reddit__title" style="font-size: 22px">' + e.data.title;
     image.src = e.data.thumbnail_url;
-    image.style.border= '1px solid red';
-    image.style.height= '100px';
-    image.style.width= '100px';
 
     card.appendChild(title)
     card.appendChild(image)
