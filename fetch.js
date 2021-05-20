@@ -1,4 +1,4 @@
-let url = "https://www.reddit.com/r/motorcycle.json";
+let url = "https://www.reddit.com/r/Planes.json";
 
 fetch(url)
     .then(res => res.json())
